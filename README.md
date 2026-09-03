@@ -19,7 +19,7 @@
 
 | 게임 | 패치 | 판 | IPS md5 | |
 |---|---|---|---|---|
-| 정상결전 최강 파이터즈 | 빠른 기본기 (FastCD) | v1.3 | `148ae0966230` | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/svc_fastcd_v1.3.ips) |
+| 정상결전 최강 파이터즈 | 빠른 기본기 (FastCD) | v1.4 | `45a00d4e11e0` | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/svc_fastcd_v1.4.ips) |
 | 더 킹 오브 파이터즈 R-2 | 빠른 기본기 (FastCD) | v1.1 | `47df4b49e1ce` | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/kofr2_fastcd_v1.1.ips) |
 | 사무라이 스피리츠! 2 | 평타 콤보 — 보통 [검수용] | t3 | `af6c3ed6bd2b` | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/ss2_combo_t3.ips) |
 | 사무라이 스피리츠! 2 | 평타 콤보 — 넉넉 [검수용] | t1 | `7a2c9c38fb77` | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/ss2_combo_t1.ips) |
@@ -28,7 +28,7 @@
 
 서서 강펀·강킥 중 **유독 늘어진 기술**의 발동을 애니메이션 대본(WAIT 틱)에서 당깁니다.
 규칙은 유저가 직접 정했습니다 — **강은 같은 캐릭터의 약보다 반드시 느리게(묵직)**, **캐릭터별 차이는 보존**, **원본이 이미
-빠르면 손대지 않음**. SvC 는 약+4, KOF R-2 는 원본 중앙값을 따라 펀치 +4 · 킥 +6.
+빠르면 손대지 않음**. 여백은 두 게임 다 원본 약→강 차이의 중앙값인 **펀치 +4 · 킥 +6**(목표 = max(8, 약+여백, 원본−홀드문턱)).
 
 <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/svc_kyo_hp_orig_vs_fastcd.png" alt="SvC 쿄 강펀 원본 vs FastCD" width="900">
 
@@ -38,7 +38,7 @@
 
 *KOF R-2 쿄 서서 강펀 — 위: 원본(모션 16프레임), 아래: FastCD v1.1(10프레임). 2프레임 간격 필름 (이식소 제작).*
 
-- SvC v1.3: 16기술 단축(하오마루 강펀 26→18, 레오나 강킥 18→10, 쿄 강펀 14→8·강킥 14→12 …), 22바이트.
+- SvC v1.4: 11기술 단축(하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8, 이오리 강킥 14→12 …), 16바이트.
 - KOF R-2 v1.1: 8기술 단축(쿄 강펀 16→10, 레오나 강킥 20→14, 셰르미 강펀 16→12 …), 11바이트 — 이식소 제작.
 - 검증: 전 기술 에뮬레이터 실측(패치 후 재측정) — 발동 프레임·피해·동작 흐름·**강<약 역전 없음** 확인.
 
