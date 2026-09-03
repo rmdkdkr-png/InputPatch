@@ -7,9 +7,7 @@
 한글패치([KrPatch](https://github.com/rmdkdkr-png/KrPatch))가 *글*을 고친다면, 여기는 *손*을 고칩니다.
 [**PocketCore 앱**](https://github.com/rmdkdkr-png/PocketCore/releases/tag/app)이면 「업데이트 확인」 한 번 → 설정 토글 한 번.
 
-<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/svc_kyo_hp_orig_vs_fastcd.webp" alt="SvC 쿄 강펀 원본 vs FastCD">
-
-*SvC 쿄 서서 강펀 — 왼쪽 원본(명중 f14) · 오른쪽 FastCD(f08). 1/5 속도, HIT 는 명중 프레임.*
+<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/svc_kyo_hp_orig_vs_fastcd.png" alt="SvC 쿄 강펀 — 같은 프레임의 원본 vs FastCD" width="900">
 
 </div>
 
@@ -35,9 +33,7 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 서서 강펀·강킥 중 **유독 늘어진 기술**의 발동을 애니메이션 대본에서 당깁니다. 규칙: **강은 약보다 반드시 느리게(묵직)**,
 캐릭터별 차이 보존, 원본이 이미 빠르면 손대지 않음. 여백은 두 게임 다 **펀치 +4 · 킥 +6**(원본 약→강 차이의 중앙값).
 
-<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/kof_kyo_hp_orig_vs_fastcd.webp" alt="KOF R-2 쿄 강펀 원본 vs FastCD v1.1">
 
-*KOF R-2 쿄 서서 강펀 — 왼쪽 원본(누름→명중 f23) · 오른쪽 FastCD v1.1(f17). 준비 동작은 같고 명중이 6프레임 빠르다.*
 
 - SvC v1.4 — 11기술, 16바이트. 누름→명중 기준 하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8 ….
 - KOF R-2 v1.1 — 8기술, 11바이트. 이식소 제작. 기술 모션 기준 쿄 강펀 16→10·레오나 강킥 20→14 …(누름→명중으로는 쿄 23→17).
@@ -49,13 +45,11 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 아수라 서서 약베기의 회복 틱을 **7→3(−8프레임)** 으로 줄이면 「약베기 → 살짝 전진 → 약베기」가 2타로 들어갑니다.
 아직 **캐릭터 1명·기술 1개** 실증이라 `[검수용]` 입니다.
 
-<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/ss2_asura_combo_orig_vs_t3.webp" alt="SS2 아수라 콤보 원본 vs t3">
-
-*아수라 약베기→약베기 — 왼쪽 원본(2타 전에 상대가 풀림) · 오른쪽 t3(2타가 경직 중 명중). 1/3 속도.*
+<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/ss2_asura_combo_orig_vs_t3.png" alt="SS2 아수라 약베기 콤보 — 2타 시점의 원본 vs t3" width="900">
 
 ## PocketCore 에서 쓰기
 
-<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_launcher.webp" alt="app_launcher.webp" width="240"> <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_settings_svc_ingame.webp" alt="app_settings_svc_ingame.webp" width="240">
+<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_launcher.png" alt="app_launcher.png" width="240"> <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_settings_svc_ingame.png" alt="app_settings_svc_ingame.png" width="240">
 
 1. 롬 목록 화면 **「업데이트 확인」** — 이 저장소의 색인과 IPS 를 받습니다.
 2. **설정** — 게임 안에서 열면 그 게임 것만 보입니다. 토글을 켭니다.
