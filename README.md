@@ -4,8 +4,7 @@
 
 **네오지오 포켓 컬러 격투게임의 「손맛」 패치 모음** — 발동 프레임·후경직 같은 **입력 체감**을 고치는 IPS.
 
-한글패치([KrPatch](https://github.com/rmdkdkr-png/KrPatch))가 *글*을 고친다면, 여기는 *손*을 고칩니다.
-[**PocketCore 앱**](https://github.com/rmdkdkr-png/PocketCore/releases/tag/app)이면 「업데이트 확인」 한 번 → 설정 토글 한 번.
+한글패치([KrPatch](https://github.com/rmdkdkr-png/KrPatch))가 *글*을 고친다면, 여기는 *손*을 고칩니다. IPS 차분만 배포하며 롬은 없습니다.
 
 <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/svc_kyo_hp_orig_vs_fastcd.png" alt="SvC 쿄 강펀 — 같은 프레임의 원본 vs FastCD" width="900">
 
@@ -15,21 +14,15 @@
 
 | 게임 | 패치 | 판 | |
 |---|---|---|---|
-| 정상결전 최강 파이터즈 | 빠른 기본기 (FastCD) | v1.4 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/svc_fastcd_v1.4.ips) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 기본기 (FastCD) | v1.1 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/kofr2_fastcd_v1.1.ips) |
-| 사무라이 스피리츠! 2 | 평타 콤보 — 보통 [검수용] | t3 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/ss2_combo_t3.ips) |
-| 사무라이 스피리츠! 2 | 평타 콤보 — 넉넉 [검수용] | t1 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/download/mods/ss2_combo_t1.ips) |
+| 정상결전 최강 파이터즈 | 빠른 기본기 (FastCD) | v1.4 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-fastcd) |
+| 더 킹 오브 파이터즈 R-2 | 빠른 기본기 (FastCD) | v1.1 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastcd) |
+| 사무라이 스피리츠! 2 | 평타 콤보 — 보통 [검수용] | t3 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-combo) |
+| 사무라이 스피리츠! 2 | 평타 콤보 — 넉넉 [검수용] | t1 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-combo) |
 
 md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/releases/tag/mods) 의 `mods.json` 에 있습니다.
 
 ## 적용법
 
-**A. PocketCore 앱 (안드로이드) — 권장, 파일 손댈 일 없음**
-1. 롬 목록 화면에서 **「업데이트 확인」** → 이 저장소의 색인과 IPS 를 받습니다.
-2. 게임을 열고 **메뉴 ▾ → 설정** → 「조작 패치」 소절에서 원하는 패치를 **켬**.
-3. 게임을 **다시 열면** 적용됩니다. 원본 롬은 그대로 두고 사본(`PocketCore/.patched/`)에 한글패치 위로 얹습니다. 끄면 원래대로.
-
-**B. 직접 입히기 (다른 에뮬레이터 · 실기 플래시 카트)**
 1. 위 표에서 IPS 를 받습니다. 대상 롬은 **순정 롬**이든 **이미 한글패치한 롬**이든 됩니다 — 한글패치와 겹치는 바이트가 없어 순서도 무관합니다.
 2. 패치 도구로 IPS 를 롬에 적용합니다.
    - PC: [Floating IPS](https://www.romhacking.net/utilities/1040/) 또는 [Lunar IPS](https://www.romhacking.net/utilities/240/)
@@ -38,7 +31,7 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 3. 결과 롬을 에뮬레이터나 카트에 넣습니다. 확장자(.ngc)는 그대로.
 4. 되돌리기 = 원본 롬을 다시 쓰면 됩니다. 한글패치와 인풋패치를 둘 다 원하면 **한글패치 IPS → 인풋패치 IPS** 순으로 두 번 적용하세요.
 
-주의: 같은 게임의 패치 두 개가 **같은 바이트**를 고치는 경우(사무라이 스피리츠! 2 「보통」·「넉넉」)는 하나만 고르세요. 앱에서는 둘 다 켜면 나중 것이 이깁니다.
+주의: 같은 게임의 패치 두 개가 **같은 바이트**를 고치는 경우(사무라이 스피리츠! 2 「보통」·「넉넉」)는 하나만 고르세요.
 받은 IPS 가 최신인지는 릴리즈의 md5 로 확인합니다(IPS 파일 자체의 md5 — 결과 롬 해시는 원본 덤프 종류마다 달라서 적지 않습니다).
 
 ## 왜 필요한가
@@ -65,16 +58,6 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 아직 **캐릭터 1명·기술 1개** 실증이라 `[검수용]` 입니다.
 
 <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/ss2_asura_combo_orig_vs_t3.png" alt="SS2 아수라 약베기 콤보 — 2타 시점의 원본 vs t3" width="900">
-
-## PocketCore 에서 쓰기
-
-<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_launcher.png" alt="app_launcher.png" width="240"> <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/app_settings_svc_ingame.png" alt="app_settings_svc_ingame.png" width="240">
-
-1. 롬 목록 화면 **「업데이트 확인」** — 이 저장소의 색인과 IPS 를 받습니다.
-2. **설정** — 게임 안에서 열면 그 게임 것만 보입니다. 토글을 켭니다.
-3. 게임을 다시 열면 원본은 그대로 두고 **사본**에 한글패치 위로 얹혀 실행됩니다.
-
-직접 입히려면 IPS 를 순정 롬(또는 한글패치 롬 — 겹치는 바이트가 없어 어느 쪽이든)에 Lunar IPS 등으로 적용하세요.
 
 ## 더 보기
 
