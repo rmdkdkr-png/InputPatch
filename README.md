@@ -45,7 +45,7 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 서서 강펀·강킥 중 **유독 늘어진 기술**의 발동을 애니메이션 대본에서 당깁니다. 규칙: **강은 약보다 반드시 느리게(묵직)**,
 캐릭터별 차이 보존, 원본이 이미 빠르면 손대지 않음. 여백은 두 게임 다 **펀치 +4 · 킥 +6**(원본 약→강 차이의 중앙값).
 
-
+<img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/kof_kyo_hp_orig_vs_fastcd.png" alt="KOF R-2 쿄 강펀 — 같은 프레임의 원본 vs FastCD v1.1" width="900">
 
 - SvC v1.4 — 11기술, 16바이트. 누름→명중 기준 하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8 ….
 - KOF R-2 v1.1 — 8기술, 11바이트. 이식소 제작. 기술 모션 기준 쿄 강펀 16→10·레오나 강킥 20→14 …(누름→명중으로는 쿄 23→17).
