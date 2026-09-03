@@ -37,10 +37,10 @@ md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/rele
 
 <img src="https://raw.githubusercontent.com/rmdkdkr-png/InputPatch/main/docs/img/kof_kyo_hp_orig_vs_fastcd.webp" alt="KOF R-2 쿄 강펀 원본 vs FastCD v1.1">
 
-*KOF R-2 쿄 서서 강펀 — 왼쪽 원본 · 오른쪽 FastCD v1.1. 준비 동작은 같고 명중이 6프레임 빠르다(HIT 표시).*
+*KOF R-2 쿄 서서 강펀 — 왼쪽 원본(누름→명중 f23) · 오른쪽 FastCD v1.1(f17). 준비 동작은 같고 명중이 6프레임 빠르다.*
 
-- SvC v1.4 — 11기술(하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8 …), 16바이트.
-- KOF R-2 v1.1 — 8기술(쿄 강펀 16→10, 레오나 강킥 20→14 …), 11바이트. 이식소 제작.
+- SvC v1.4 — 11기술, 16바이트. 누름→명중 기준 하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8 ….
+- KOF R-2 v1.1 — 8기술, 11바이트. 이식소 제작. 기술 모션 기준 쿄 강펀 16→10·레오나 강킥 20→14 …(누름→명중으로는 쿄 23→17).
 - 전 기술 에뮬레이터 실측(패치 후 재측정): 발동·피해·동작 흐름·강<약 역전 없음 확인.
 
 ## 평타 콤보 — SS2 (검수용)
