@@ -1,5 +1,5 @@
 {
- "_doc": "인풋(조작·게임플레이) 패치 채널의 단일출처. tools/pub_inputpatch.py 가 이걸로 mods.json 색인을 만들어 InputPatch 레포(트리 patches/ + 고정 릴리즈 태그 mods)에 IPS 와 함께 올리고, README 소개글·앱 동봉 스냅샷(assets/mods.json)도 갱신한다. 앱은 mods.json 을 받아 게임별 토글(옵션 키 pocketcore_<id>)을 만들고 켜진 것만 .patched 사본에 순서대로 얹는다. 한패(patches.json)와 겹치는 바이트 없는 것만 올릴 것. id 는 옵션 키·파일명에 쓰이므로 ASCII. 같은 자리를 다른 값으로 덮는 배타 패치는 group/group_ko/pick 을 달면 앱이 **한 줄짜리 다이얼**(끔 · 값1 · 값2 …)로 그리고 옵션 키는 pocketcore_<group> 이 된다. group 이 없으면 예전대로 개별 토글.",
+ "_doc": "인풋(조작·게임플레이) 패치 채널의 단일출처. tools/pub_inputpatch.py 가 이걸로 mods.json 색인을 만들어 InputPatch 레포(트리 patches/ + 고정 릴리즈 태그 mods)에 IPS 와 함께 올리고, README 소개글·앱 동봉 스냅샷(assets/mods.json)도 갱신한다. 앱은 mods.json 을 받아 게임별 토글(옵션 키 pocketcore_<id>)을 만들고 켜진 것만 .patched 사본에 순서대로 얹는다. 한패(patches.json)와 겹치는 바이트 없는 것만 올릴 것. id 는 옵션 키·파일명에 쓰이므로 ASCII. 같은 자리를 다른 값으로 덮는 배타 패치는 group/group_ko/pick 을 달면 앱이 **한 줄짜리 다이얼**(끔 · 값1 · 값2 …)로 그리고 옵션 키는 pocketcore_<group> 이 된다. group 이 없으면 예전대로 개별 토글. 태그별로 tags.<태그> 에 intro(mods/docs/<파일>.md)·shot(docs/img/<파일>) 을 달면 그 릴리즈 본문에 스샷과 사람이 쓴 글이 들어간다 — 없으면 지금처럼 help 로 자동 생성.",
  "ver": 1,
  "tag": "mods",
  "mods": [
@@ -12,16 +12,6 @@
    "default": "disabled",
    "help": "서서 강펀·강킥 중 유독 늘어진 11개 기술의 발동을 당깁니다(하오마루 강펀 26→18, 레오나 강킥 18→12, 쿄 강펀 14→8 …). 이 기종이 '길게 누르나 보자'로 기다리며 내는 손해만 돌려준 것. 강은 같은 캐릭터의 약보다 반드시 느리게(묵직) 두고(펀치 +4·킥 +6 — 원본 차이의 중앙값), 캐릭터별 차이도 그대로 남깁니다. 약/강 구분·대미지·경직은 순정 그대로. 게임을 다시 열면 적용.",
    "tag": "svc-fastcd"
-  },
-  {
-   "id": "kofr2_fastcd",
-   "game": "kofr2",
-   "ko": "빠른 기본기 (FastCD)",
-   "ver": "v1.1",
-   "file": "kofr2_fastcd_v1.1.ips",
-   "default": "disabled",
-   "help": "서서 강펀·강킥 중 유독 굼뜬 8개 기술의 발동을 당깁니다. 이 기종이 '길게 누르나 보자'로 기다리며 내는 손해만 돌려준 것. 강은 같은 캐릭터의 약보다 반드시 느리게(묵직) 두고(펀치 +4·킥 +6), 캐릭터별 차이도 그대로 남깁니다. 약/강 구분·대미지·경직은 순정 그대로. 게임을 다시 열면 적용.",
-   "tag": "kofr2-fastcd"
   },
   {
    "id": "ss2_combo_t3",
@@ -48,6 +38,77 @@
    "group": "ss2_combo",
    "group_ko": "아수라 약베기 후경직",
    "pick": "12프레임 줄임"
+  },
+  {
+   "id": "kofr2_fastcd",
+   "game": "kofr2",
+   "ko": "빠른 기본기 (FastCD)",
+   "ver": "v1.2",
+   "file": "kofr2_fastcd_v1.2.ips",
+   "default": "disabled",
+   "help": "서서 강펀·강킥의 발동을 당깁니다. 이 기종이 「길게 누르나 보자」로 기다리며 내는 손해만 돌려준 것 — 약/강 구분·대미지·경직은 순정 그대로입니다. 쿄 강펀 22→16, 레오나 강킥 26→20 같은 식으로 14명 전원이 무언가 빨라집니다. 강은 같은 캐릭터의 약보다 반드시 느리게 두어 묵직함을 남깁니다. 다만 아테나 강펀·신고 강킥·사이수 강펀은 «원본부터» 강이 약보다 빠르거나 같아 손대지 않았습니다(그 셋도 다른 기술로는 빨라집니다). 게임을 다시 열면 적용.",
+   "tag": "kofr2-fastcd",
+   "group": "kofr2_speed",
+   "group_ko": "강 기본기 당기기",
+   "pick": "FastCD (강펀·강킥)"
+  },
+  {
+   "id": "kofr2_fastpunch_2",
+   "game": "kofr2",
+   "ko": "빠른 강펀 — −2",
+   "ver": "v1.0",
+   "file": "kofr2_fastpunch_2.ips",
+   "default": "disabled",
+   "help": "강펀만 골라 2프레임 당깁니다. 전원 일제히 같은 값이라 캐릭터 사이 균형은 그대로입니다. 숫자가 클수록 빨라지지만, 바닥(기술이 아예 안 나가는 값) 아래로는 내리지 않고 강이 약보다 빨라지는 캐릭터도 만들지 않습니다 — 그래서 캐릭터마다 실제로 줄어드는 양이 다를 수 있습니다. 아테나는 원본부터 강<약이라 제외. FastCD 와는 같은 자리를 쓰므로 둘 중 하나만 고를 수 있습니다. 게임을 다시 열면 적용.",
+   "tag": "kofr2-fastpunch",
+   "group": "kofr2_speed",
+   "group_ko": "강 기본기 당기기",
+   "pick": "강펀 −2"
+  },
+  {
+   "id": "kofr2_fastpunch_4",
+   "game": "kofr2",
+   "ko": "빠른 강펀 — −4",
+   "ver": "v1.0",
+   "file": "kofr2_fastpunch_4.ips",
+   "default": "disabled",
+   "help": "강펀만 골라 4프레임 당깁니다. 전원 일제히 같은 값이라 캐릭터 사이 균형은 그대로입니다. 숫자가 클수록 빨라지지만, 바닥(기술이 아예 안 나가는 값) 아래로는 내리지 않고 강이 약보다 빨라지는 캐릭터도 만들지 않습니다 — 그래서 캐릭터마다 실제로 줄어드는 양이 다를 수 있습니다. 아테나는 원본부터 강<약이라 제외. FastCD 와는 같은 자리를 쓰므로 둘 중 하나만 고를 수 있습니다. 게임을 다시 열면 적용.",
+   "tag": "kofr2-fastpunch",
+   "group": "kofr2_speed",
+   "group_ko": "강 기본기 당기기",
+   "pick": "강펀 −4"
+  },
+  {
+   "id": "kofr2_fastpunch_6",
+   "game": "kofr2",
+   "ko": "빠른 강펀 — −6",
+   "ver": "v1.0",
+   "file": "kofr2_fastpunch_6.ips",
+   "default": "disabled",
+   "help": "강펀만 골라 6프레임 당깁니다. 전원 일제히 같은 값이라 캐릭터 사이 균형은 그대로입니다. 숫자가 클수록 빨라지지만, 바닥(기술이 아예 안 나가는 값) 아래로는 내리지 않고 강이 약보다 빨라지는 캐릭터도 만들지 않습니다 — 그래서 캐릭터마다 실제로 줄어드는 양이 다를 수 있습니다. 아테나는 원본부터 강<약이라 제외. FastCD 와는 같은 자리를 쓰므로 둘 중 하나만 고를 수 있습니다. 게임을 다시 열면 적용.",
+   "tag": "kofr2-fastpunch",
+   "group": "kofr2_speed",
+   "group_ko": "강 기본기 당기기",
+   "pick": "강펀 −6"
+  },
+  {
+   "id": "kofr2_fastpunch_8",
+   "game": "kofr2",
+   "ko": "빠른 강펀 — −8",
+   "ver": "v1.0",
+   "file": "kofr2_fastpunch_8.ips",
+   "default": "disabled",
+   "help": "강펀만 골라 8프레임 당깁니다. 전원 일제히 같은 값이라 캐릭터 사이 균형은 그대로입니다. 숫자가 클수록 빨라지지만, 바닥(기술이 아예 안 나가는 값) 아래로는 내리지 않고 강이 약보다 빨라지는 캐릭터도 만들지 않습니다 — 그래서 캐릭터마다 실제로 줄어드는 양이 다를 수 있습니다. 아테나는 원본부터 강<약이라 제외. FastCD 와는 같은 자리를 쓰므로 둘 중 하나만 고를 수 있습니다. 게임을 다시 열면 적용.",
+   "tag": "kofr2-fastpunch",
+   "group": "kofr2_speed",
+   "group_ko": "강 기본기 당기기",
+   "pick": "강펀 −8"
   }
- ]
+ ],
+ "tags": {
+  "kofr2-fastpunch": {
+   "intro": "kofr2_fastpunch.md",
+   "shot": "kofr2_fastpunch.png"
+  }
+ }
 }
