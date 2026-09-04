@@ -14,14 +14,16 @@
 
 | 게임 | 패치 | 판 | |
 |---|---|---|---|
-| 정상결전 최강 파이터즈 | 빠른 기본기 (FastCD) | v1.5 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-fastcd) |
 | 사무라이 스피리츠! 2 | 평타 콤보 — 보통 [검수용] | t3 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-combo) |
 | 사무라이 스피리츠! 2 | 평타 콤보 — 넉넉 [검수용] | t1 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-combo) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 기본기 (FastCD) | v1.2 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastcd) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 강펀 — −2 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastpunch) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 강펀 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastpunch) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 강펀 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastpunch) |
-| 더 킹 오브 파이터즈 R-2 | 빠른 강펀 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-fastpunch) |
+| 더 킹 오브 파이터즈 R-2 | 강 기본기 당기기 — −2 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-faststrong) |
+| 더 킹 오브 파이터즈 R-2 | 강 기본기 당기기 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-faststrong) |
+| 더 킹 오브 파이터즈 R-2 | 강 기본기 당기기 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-faststrong) |
+| 더 킹 오브 파이터즈 R-2 | 강 기본기 당기기 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/kofr2-faststrong) |
+| 정상결전 최강 파이터즈 | 강 기본기 당기기 — −2 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
+| 정상결전 최강 파이터즈 | 강 기본기 당기기 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
+| 정상결전 최강 파이터즈 | 강 기본기 당기기 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
+| 정상결전 최강 파이터즈 | 강 기본기 당기기 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
 
 md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/releases/tag/mods) 의 `mods.json` 에 있습니다.
 
