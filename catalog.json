@@ -109,6 +109,10 @@
   "kofr2-fastpunch": {
    "intro": "kofr2_fastpunch.md",
    "shot": "kofr2_fastpunch.png"
+  },
+  "svc-fastcd": {
+   "intro": "svc_fastcd.md",
+   "shot": "svc_fastcd.png"
   }
  }
 }
