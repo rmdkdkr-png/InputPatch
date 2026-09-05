@@ -22,10 +22,10 @@
 | 정상결전 최강 파이터즈 | 강 기본기 당기기 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
 | 정상결전 최강 파이터즈 | 강 기본기 당기기 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
 | 정상결전 최강 파이터즈 | 강 기본기 당기기 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/svc-faststrong) |
-| 사무라이 쇼다운! 2 | 서서 약베기 회복 당김 — −2 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
-| 사무라이 쇼다운! 2 | 서서 약베기 회복 당김 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
-| 사무라이 쇼다운! 2 | 서서 약베기 회복 당김 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
-| 사무라이 쇼다운! 2 | 서서 약베기 회복 당김 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
+| 사무라이 쇼다운! 2 | 약베기 후경직 감소 — −2 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
+| 사무라이 쇼다운! 2 | 약베기 후경직 감소 — −4 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
+| 사무라이 쇼다운! 2 | 약베기 후경직 감소 — −6 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
+| 사무라이 쇼다운! 2 | 약베기 후경직 감소 — −8 | v1.0 | [받기](https://github.com/rmdkdkr-png/InputPatch/releases/tag/ss2-lightrecover) |
 
 md5·크기는 [릴리즈 `mods`](https://github.com/rmdkdkr-png/InputPatch/releases/tag/mods) 의 `mods.json` 에 있습니다.
 
