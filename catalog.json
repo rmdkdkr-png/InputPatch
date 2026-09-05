@@ -4,32 +4,6 @@
  "tag": "mods",
  "mods": [
   {
-   "id": "ss2_combo_t3",
-   "game": "ss2",
-   "ko": "평타 콤보 — 보통 [검수용]",
-   "ver": "t3",
-   "file": "ss2_combo_t3.ips",
-   "default": "disabled",
-   "help": "아수라 서서 약베기(B 탭)의 후경직을 8프레임 줄여 「약베기(B 탭) → 살짝 전진 → 약베기(B 탭)」가 카운터 없이도 콤보로 들어갑니다. 아직 캐릭터 1명·기술 1개짜리 실증판 — 손맛 검수용. 게임을 다시 열면 적용.",
-   "tag": "ss2-combo",
-   "group": "ss2_combo",
-   "group_ko": "아수라 약베기 후경직",
-   "pick": "8프레임 줄임"
-  },
-  {
-   "id": "ss2_combo_t1",
-   "game": "ss2",
-   "ko": "평타 콤보 — 넉넉 [검수용]",
-   "ver": "t1",
-   "file": "ss2_combo_t1.ips",
-   "default": "disabled",
-   "help": "같은 자리를 12프레임 줄인 판(전진 2~6프레임 어디서나 콤보). 「보통」과 같은 바이트를 고치므로 둘 다 켜면 나중 것(이것)이 이깁니다. 검수용.",
-   "tag": "ss2-combo",
-   "group": "ss2_combo",
-   "group_ko": "아수라 약베기 후경직",
-   "pick": "12프레임 줄임"
-  },
-  {
    "id": "kofr2_faststrong_2",
    "game": "kofr2",
    "ko": "강 기본기 당기기 — −2",
